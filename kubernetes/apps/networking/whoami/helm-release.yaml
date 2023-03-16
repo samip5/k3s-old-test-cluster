@@ -33,7 +33,7 @@ spec:
     nameOverride: *app
     image:
       repository: registry.samipsolutions.fi/docker/traefik/whoami
-      tag: v1.8.7
+      tag: v1.9.0
     controller:
       replicas: 2
     service:
